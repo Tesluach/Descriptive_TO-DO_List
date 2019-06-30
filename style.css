@@ -1,0 +1,127 @@
+body {
+    background: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 960px;
+    height: 600px;
+    background: #ccc;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+nav {
+    background: #5798be;
+    width: 100%;
+    height: 45px;
+}
+
+#search {
+    text-align: center;
+    padding: 10px;
+}
+
+#search input[type="search"] {
+    background: #eee;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+}
+
+
+/* 
+#search input[type="submit"] {
+    background: #ccc;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+} */
+
+header {
+    background: #56cce0;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+#info {
+    text-align: center;
+    padding: 12px;
+}
+
+#info input[type="text"] {
+    background: #eee;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin-right: 20px;
+}
+
+#info input[type="submit"] {
+    background: #ccc;
+    border: 1px solid #000;
+    outline: none;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 3px 0px 3px 3px rgba(0, 0, 0, 1);
+}
+
+#info input[type="submit"]:active {
+    box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 0.8);
+}
+
+label {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Responsiveness */
+
+@media screen and (max-width: 800px) {
+    #search input[type="search"] {
+        width: 40%;
+        line-height: 30px;
+    }
+}
+
+#userInput {
+    width: 75%;
+    height: 480px;
+    margin: 0 auto;
+    background: #ccc;
+}
+
+article:nth-child(even) {
+    background: #eee;
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+}
+
+article:nth-child(odd) {
+    background: #a58b8b;
+    width: 100%;
+    border-radius: 10px;
+    height: 150px;
+}
+
+li {
+    list-style-image: url(icons/icons8_Double_Tick_15px.png);
+    padding-left: 5px;
+}
+
+article li img {
+    float: right;
+    margin-top: -35px;
+    margin-right: 10px;
+    cursor: pointer;
+}
