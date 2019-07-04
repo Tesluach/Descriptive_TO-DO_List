@@ -108,6 +108,7 @@ function deleting() {
 
             var lip = e.target.parentElement.parentElement;
             list.removeChild(lip);
+
         }
     });
 }
